@@ -1,5 +1,6 @@
 package chap14.FunctionalInterface;
 
-public class MyFunctionalInterface3 {
-
+@FunctionalInterface
+public interface MyFunctionalInterface3 {
+	public void method(int x);
 }
