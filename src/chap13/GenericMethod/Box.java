@@ -1,9 +1,9 @@
-package chap13.GenericType;
+package chap13.GenericMethod;
 
-public class Box2<T> {
+public class Box<T> {
 	private T t;
 	public void set(T t){
-		this.t= t;
+		this.t = t;
 	}
 	public T get(){
 		return t;
