@@ -1,5 +1,7 @@
 package chap13.Exercise;
 
-public class ChildPair {
-
+public class ChildPair<K, V> extends Pair<K, V> {
+	public ChildPair(K k, V v){
+		super(k, v);
+	}
 }

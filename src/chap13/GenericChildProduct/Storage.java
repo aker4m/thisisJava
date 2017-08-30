@@ -1,5 +1,6 @@
 package chap13.GenericChildProduct;
 
-public class Storage {
-
+public interface Storage<T>	{
+	public void add(T item, int index);
+	public T get(int index);
 }
